@@ -153,7 +153,7 @@ img {
 
 .effective {
     background: #2e2f42;
-    background-image: url();
+    background-image: url("../images/people.svg");
     padding: 188px 0;
 }
 
