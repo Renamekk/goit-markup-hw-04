@@ -151,9 +151,19 @@ img {
     color: #fff;
 }
 
+.efecdiv {
+    background-color: #2e2f424e;
+    width: 100%;
+    
+}
+
 .effective {
     background: #2e2f42;
     background-image: url("../images/people.svg");
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    width: 100%;
+    background-size: cover;
     padding: 188px 0;
 }
 
