@@ -224,6 +224,20 @@ img {
     gap: 24px;
 }
 
+.icon-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    margin-bottom: 8px;
+    left: 0;
+    top: 0;
+    box-sizing: border-box;
+    border: 1px solid rgb(142, 143, 153);
+    border-radius: 4px;
+    background-color: #f4f4fd;
+}
+
 .benefits-list-list {
     width: calc((100% - 72px) / 4);
 }
@@ -298,6 +312,39 @@ img {
     color: #434455;
 }
 
+.icon-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #4d5ae5;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-link:hover,
+.icon-link:focus {
+    background-color: #404BBF;
+}
+
+.icon-social {
+    fill: #f4f4fd;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-people-block {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-people-block-item {
+    height: 40px;
+    width: 40px;
+}
+
 /* =========== Portfolio styles =========== */
 
 
@@ -352,6 +399,33 @@ img {
     border-top: none;
 }
 
+.overlay-box {
+        position: relative;
+            display: flex;
+            flex-direction: column;
+            gap: 0;
+            background: #fff;
+            width: 360px;
+            height: 300px;
+            overflow: hidden;
+}
+
+.overlay {
+        position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            transform: translateY(100%);
+            transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            color: rgb(244, 244, 253);
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0.02em;
+            text-align: left;
+            padding: 40px 32px;
+            background: rgb(77, 90, 229);
+}
 
 /* =========== /Footer styles =========== */
 
