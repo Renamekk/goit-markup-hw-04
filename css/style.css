@@ -410,6 +410,10 @@ img {
             overflow: hidden;
 }
 
+.overlay-box:hover {
+    transform: translateY(0%);
+}
+
 .overlay {
         position: absolute;
             top: 0;
@@ -425,6 +429,10 @@ img {
             text-align: left;
             padding: 40px 32px;
             background: rgb(77, 90, 229);
+}
+
+li:hover .overlay {
+    transform: translateY(0%);
 }
 
 /* =========== /Footer styles =========== */
